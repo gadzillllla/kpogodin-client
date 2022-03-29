@@ -6,6 +6,7 @@ const App = () => {
   return (
     <ReduxProvider>
       <Counter />
+      <h1>ЗДАРОВА ЗАЕБАЛ</h1>
       <PokemonContainer />
     </ReduxProvider>
   );

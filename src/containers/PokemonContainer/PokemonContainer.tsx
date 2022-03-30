@@ -12,9 +12,8 @@ const PokemonContainer = () => {
     <div className={s.root}>
       <h1 className={s.title}>ВАЛЕРА</h1>
       <h1 className={s.title}>ШАКШУКА</h1>
-      <h1 className={s.title}>А</h1>
-      <h1 className={s.title}>ЛЕХА</h1>
-      <h1 className={s.title}>НЕТ</h1>
+      <h1 className={s.title}>СЛАВНЫЙ</h1>
+      <h1 className={s.title}>ПРИBOOMBASS</h1>
       <Button onClick={() => loadPokemons()}>Загрузить покемонов из api/v1</Button>
       <br />
       {isLoading && <span data-testid="loader">Загрузка...</span>}

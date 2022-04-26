@@ -28,7 +28,7 @@ const PokemonContainer = () => {
         В МАЛАФЬЕ!
       </h1>
 
-      <h1 className={s.subTitle}>ГАШНЯ!</h1>
+      <h1 className={s.semen}>ГАШНЯ!</h1>
       <div className={s.hidden}>
         <Button onClick={() => loadPokemons()}>Загрузить покемонов из api/v1</Button>
         <br />
